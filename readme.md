@@ -106,3 +106,48 @@ Faça o download aqui:
 - Tela do fim da instalação
 
 <img src=ubuntuinstal10.png>
+
+#### Atualização do Sistema 
+
+Para a correta utilização do servidor Ubuntu que acabamos de instalar, será necessário realizar a atualização do sistema.
+
+- Execute o comando abaixo:
+
+```
+sudo apt update -y && sudo apt upgrade -y
+```
+
+- Reinicie o seu servidor usando o comando abaixo:
+
+```
+reboot 
+```
+
+#### Instalação do Compilador NASM
+
+O compilador do NASM é uma ferramenta que nos permite programar em Assembly. Assim é possivel criar programas que manipulam dados que estão nos registradores do processador.
+
+- Para instalar o NASM no Ubuntu, usamos o comando:
+
+```
+sudo apt install nasm -y
+```
+
+#### Instalação do compilador da Linguagem C
+
+Em Linux, o compilador da Linguagem C é o GCC. Ele é uma ferramenta importante para o desenvolvimento de programas em C.
+
+Pra instaladar use o comando:
+```
+sudo apt install gcc -y
+```
+
+#### Conexão Servidor e VSCode via SSH
+
+Precisamos instalar uma extensão no VSCode para acessar o nosso servidor de forma remota.
+
+!["Extensão SSH"](extensaossh.png)
+
+Configuração do acesso remoto.
+
+!["Configuração"](configurarextensao.png)
